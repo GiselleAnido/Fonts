@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+/*for fonts on your computer, default ones */
+
+.fonts p {
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+/*embed a font from google fonts, paste the link on html and the CSS code* or @import on the stylesheet */
+
+.fonts p{
+
+    font-family: 'Playfair Display', serif}
+
+
+/*download a font, extract file, with @font-face give the src and a name ad then selected on font-family*/
+
+@font-face {
+    font-family: "Ubuntuitalic";
+    src: url(/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+
+.fonts p{
+    font-family: "Ubuntuitalic", sans-serif;
+}
